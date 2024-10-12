@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  background-color: rgb(143, 235, 235);
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+#card {
+  background-color: #fff;
+  color: #000;
+  height: 40vh;
+  width: 30vh;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+#card #Strangers {
+  color: red;
+}
+#card #Friends {
+  color: green;
+}
+button {
+  margin: 2vw;
+  padding: 1vw 0.8vw;
+  color: white;
+}
+#card .blue {
+  background-color: rgb(109, 177, 233);
+}
+#card .red {
+  background-color: rgb(224, 105, 105);
+}
